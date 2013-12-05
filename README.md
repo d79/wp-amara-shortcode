@@ -6,7 +6,7 @@ Wordpress Plugin for Amara.org shortcode
 Usage
 -----
 
-Insert `[amara url=XXXXXXXXXXX]` into the content of your page where you want to display the subtitled video (where `XXXXXXXXXXX` is the complete URL of your video).
+Insert `[amara url=http://URL/OF/VIDEO]` into the content of your page where you want to display the subtitled video (supported video formats: Ogg, WebM, flv, mp4, Youtube, Vimeo, Dailymotion).
 
 Optionally, you can set some other options, like explained on [Amara Embed Code Usage Guide](https://github.com/pculture/unisubs/wiki/Embed-Code-Usage-Guide).
 
