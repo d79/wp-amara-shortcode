@@ -6,7 +6,7 @@ Wordpress Plugin for Amara.org shortcode
 Usage
 -----
 
-Insert `[amara id=XXXXXXXXXXX]` into the content of your page where you want to display the subtitled video (where `XXXXXXXXXXX` is the ID of your Youtube video).
+Insert `[amara url=XXXXXXXXXXX]` into the content of your page where you want to display the subtitled video (where `XXXXXXXXXXX` is the complete URL of your video).
 
 Optionally, you can set some other options:
 
@@ -17,5 +17,5 @@ Optionally, you can set some other options:
 ### Example
 
 ```
-[amara id=XSGBVzeBUbk color1=0xFF0000 width=640 height=480]
+[amara url=http://www.youtube.com/watch?v=XSGBVzeBUbk color1=0xFF0000 width=640 height=480]
 ```

@@ -3,7 +3,7 @@
 Plugin Name: WP Amara Shortcode
 Plugin URI: https://github.com/d79/wp-amara-shortcode
 Description: A simple wordpress plugin to enable Amara.org shortcode
-Version: 1.0
+Version: 1.1
 Author: Dario Candelù
 Author URI: http://www.spaziosputnik.it
 License: GPL2
@@ -39,7 +39,7 @@ if(!class_exists('WP_Amara_Shortcode'))
 		
 		public function amara( $atts ) {
 			extract( shortcode_atts( array(
-				'id' => '',
+				'url' => '',
 				'color1' => '0xFF0000',
 				'width' => 640,
 				'height' => 480,
@@ -48,11 +48,11 @@ if(!class_exists('WP_Amara_Shortcode'))
 			return <<<code
 			<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
 			({
-				video_url: "http://www.youtube.com/watch?v=PN3WoMj2rRw",
+				video_url: "{$url}",
 			   video_config: {
 					color1: '{$color1}',
-					width: {$width},
-					height: {$height}
+					width: '{$width}',
+					height: '{$height}'
 				}
 			})
 			</script>
