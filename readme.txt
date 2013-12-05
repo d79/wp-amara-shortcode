@@ -38,7 +38,7 @@ Optionally, you can set some other options, like explained on [Amara Embed Code 
 
 To insert the `content` option for FLV files use the format `content='key1:value1|key2:value2|...|keyN:valueN'` (note the wrapping quotes)
 
-To insert the `base_state` language option, just add it like 'base_state=XX' (where XX is the ISO-639-3 language code)
+To insert the `base_state` language option, just add it like `base_state=XX` (where XX is the ISO-639-3 language code)
 
 ### Examples
 
